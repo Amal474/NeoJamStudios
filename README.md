@@ -4,6 +4,8 @@ Official website for NeoJamStudios, with a home page and a privacy policy. It is
 - `index.html`: the home page (studio intro and games)
 - `privacy-policy.html`: the list of games with privacy policies
 - `pathfinder-privacy-policy.html`: the PathFinder privacy policy
+- `maezo-privacy-policy.html`: the Maezo privacy policy
 - `style.css`: the shared styles
 - `favicon.svg`: the site favicon (the studio logo)
 - `pathfinder-icon.png`: the PathFinder game icon
+- `maezo-icon.png`: the Maezo game icon

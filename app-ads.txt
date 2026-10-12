@@ -1,2 +1,2 @@
 OWNERDOMAIN=https://neojamstudios.pages.dev/
-ironsrc.com, 689295, Direct
+ironsrc.com, 689295, DIRECT

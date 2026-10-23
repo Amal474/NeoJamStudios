@@ -7,8 +7,13 @@
     <meta name="description" content="NeoJamStudios is an indie game studio making fun, mind-training puzzle games. Let's train your mind with fun filled games :)">
     <meta property="og:title" content="NeoJamStudios">
     <meta property="og:description" content="Let's train your mind with fun filled games :)">
-    <meta property="og:image" content="pathfinder-icon.png">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:image" content="https://neojamstudios.pages.dev/banner.jpg">
+    <meta name="theme-color" content="#100d2a">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,8 +21,8 @@
 <nav class="nav">
     <div class="wrap">
         <a class="brand" href="index.html">
-            <span class="logo"><i></i><i></i><i></i><i></i></span>
-            <span class="brand-name">NeoJam<span>Studios</span></span>
+            <img class="logo" src="logo.png" alt="" width="34" height="34">
+            <span class="brand-name"><b>NeoJam</b><span>Studios</span></span>
         </a>
         <div class="nav-links">
             <a href="#games">Games</a>
@@ -27,10 +32,13 @@
 </nav>
 
 <header class="hero">
-    <div class="wrap">
-        <div class="eyebrow">Indie Game Studio</div>
-        <h1>Neo<span>Jam</span>Studios</h1>
-        <p>Let's train your mind with fun filled games :)</p>
+    <h1>
+        <picture>
+            <source media="(max-width: 760px)" srcset="banner-mobile.jpg" width="1080" height="1110">
+            <img src="banner.jpg" alt="NeoJamStudios: Train your mind with games" width="2400" height="1128">
+        </picture>
+    </h1>
+    <div class="wrap hero-actions">
         <a class="btn btn-primary" href="#games">Explore our games</a>
         <a class="btn btn-ghost" href="https://play.google.com/store/apps/dev?id=5590754202147492499" target="_blank" rel="noopener noreferrer">Google Play</a>
     </div>
